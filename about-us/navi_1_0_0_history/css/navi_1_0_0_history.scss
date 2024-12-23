@@ -43,6 +43,12 @@
         &:last-child{
             margin-bottom: 0;
         }
+        &:nth-child(6), &:nth-child(5){
+            .navi_1_0_0_history__text{
+                bottom: 0;
+                top: unset;
+            }
+        }
         &.active{
             .navi_1_0_0_history__year{
                 opacity: 1;
@@ -64,6 +70,7 @@
         }
     }
     &__year{
+        cursor: pointer;
         position: relative;
         color: #202020;
         font-family: var(--weight-600);

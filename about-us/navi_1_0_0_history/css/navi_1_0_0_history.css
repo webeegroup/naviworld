@@ -43,6 +43,10 @@
 .navi_1_0_0_history__item:last-child {
   margin-bottom: 0;
 }
+.navi_1_0_0_history__item:nth-child(6) .navi_1_0_0_history__text, .navi_1_0_0_history__item:nth-child(5) .navi_1_0_0_history__text {
+  bottom: 0;
+  top: unset;
+}
 .navi_1_0_0_history__item.active .navi_1_0_0_history__year {
   opacity: 1;
   padding-left: 20px;
@@ -61,6 +65,7 @@
   display: block;
 }
 .navi_1_0_0_history__year {
+  cursor: pointer;
   position: relative;
   color: #202020;
   font-family: var(--weight-600);
