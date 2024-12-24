@@ -1,17 +1,17 @@
 .navi_1_0_0_key{
-    padding: 40px 0;
-    background-color: #F5F5F5;
+    overflow: hidden;
+    padding: 70px 0 70px;
+    background: linear-gradient(90deg, rgba(245,245,245,1) 50%, rgba(28,35,78,1) 50%);
     &__inner{
         display: flex;
         margin: 0 -20px;
     }
     &__img{
         width: 50%;
-        padding: 20px 0 20px 0;
-        background-color: #1C234E;
         img{
-            width: calc(100% + 10px);
-            height: auto;
+            width: 150%;
+            height: 100%;
+            object-fit: cover;
             display: block;
             margin-left: -10px;
             border-top-left-radius: 10px;
@@ -20,7 +20,7 @@
     }
     &__content{
         width: 50%;
-        padding: 0 20px;
+        padding: 0 40px 0 20px;
     }
     &__sub{
         color: #005284;
@@ -29,7 +29,7 @@
     }
     &__title{
         color: #333637;
-        font-size: 32px;
+        font-size: 40px;
         margin-bottom: 20px;
     }
     &__desc{
